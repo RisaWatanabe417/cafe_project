@@ -1,0 +1,42 @@
+header {
+  .hero-area {
+    background-image: url(/img/hero_image.png);
+    height: 590px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-navi-area {
+    background: #FFFFFF;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    opacity: 0.9;
+    .header-navi {
+      height: 50px;
+      width: 80%;
+      line-height: 50px;
+      // background: red;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5%;
+        li {
+          display: inline-block;
+          font-size: 18px;
+        }
+      }
+    }
+    .header-phone {
+      width: 20%;
+      font-size: 18px;
+      text-align: center;
+      line-height: 50px;
+      // background: blue;
+    }
+  }
+}

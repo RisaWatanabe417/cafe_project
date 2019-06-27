@@ -1,0 +1,52 @@
+main {
+  .concept {
+    padding: 0 10%;
+    .concept-coffee {
+      // display: flex;
+      position: relative;
+      img{
+        height: 100%;
+      }
+      .text-box1 {
+        background: #e6e6e6;
+        height: 180px;
+        width: 515px;
+        padding: 30px 45px;
+        opacity: 0.9;
+        position: absolute;
+        top: 25%;
+        right: 0%;
+      }
+    }
+    .concept-beer {
+      // display: flex;
+      height: 100%;
+      position: relative;
+      img {
+        height: 100%;
+      }
+      .text-box2 {
+        background: #e6e6e6;
+        height: 185px;
+        width: 515px;
+        padding: 30px 45px;
+        opacity: 0.9;
+        position: absolute;
+        top: 25%;
+        right: 0%;
+      }
+    }
+  }
+  .menu {
+    padding: 0 10%;
+  }
+  .photo {
+    padding: 0 10%;
+  }
+  .shop {
+    padding: 0 10%;
+  }
+  .access {
+    padding: 0 10%;
+  }
+}
