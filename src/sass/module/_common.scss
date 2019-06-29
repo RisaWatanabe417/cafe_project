@@ -1,4 +1,5 @@
 body {
+  background: #f8f8f8;
   font-family: '游ゴシック',YuGothic,'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,sans-serif;
 }
 
@@ -8,12 +9,17 @@ body {
   color: inherit;
 }
 
+* li {
+  display: inline-block;
+  margin-right: 14px;
+}
+
 * h1 {
   font-size: 30px;
   font-weight: normal;
   text-align: center;
-  padding-top: 65px;
-  padding-bottom: 30px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 * h1::after {
@@ -36,4 +42,53 @@ body {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 3px;
+}
+
+* .btn {
+  display: block;
+  color: orange;
+  width: 180px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid orange;
+  text-align: center;
+  background: #ffffff;
+  margin: 30px auto 0 auto;
+}
+
+* .btn:hover {
+  color: #FFFFFF;
+  background: orange;
+}
+
+* table {
+  width: 100%;
+  margin: 0 auto;
+  tbody {
+    tr {
+      border-bottom: 1px #e6e6e6 solid;
+      th {
+        width: 40%;
+        text-align: left;
+        padding: 10px;
+        font-weight: normal;
+      }
+      td {
+        width: 60%;
+        text-align: left;
+        padding: 10px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+* .tbl-shop {
+  width: 45%;
+  margin: 0 auto;
+}
+
+* .tbl-access {
+  width: 45%;
+  margin: 0 auto;
 }

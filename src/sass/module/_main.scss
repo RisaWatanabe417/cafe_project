@@ -4,18 +4,24 @@ main {
     .concept-coffee {
       // display: flex;
       position: relative;
+      margin-bottom: 25px;
       img{
         height: 100%;
       }
       .text-box1 {
         background: #e6e6e6;
-        height: 180px;
+        border: 10px solid #e6e6e6;
+        box-shadow: 0px 0px 0px 1px #FFFFFF inset;
+        height: 215px;
         width: 515px;
         padding: 30px 45px;
         opacity: 0.9;
         position: absolute;
-        top: 25%;
+        top: 20%;
         right: 0%;
+        p {
+          margin-top: 10px;
+        }
       }
     }
     .concept-beer {
@@ -24,16 +30,22 @@ main {
       position: relative;
       img {
         height: 100%;
+        margin-left: 50%;
       }
       .text-box2 {
         background: #e6e6e6;
-        height: 185px;
+        border: 10px solid #e6e6e6;
+        box-shadow: 0px 0px 0px 1px #FFFFFF inset;
+        height: 225px;
         width: 515px;
         padding: 30px 45px;
         opacity: 0.9;
         position: absolute;
-        top: 25%;
-        right: 0%;
+        top: 20%;
+        left: 0%;
+        p {
+          margin-top: 10px;
+        }
       }
     }
   }
@@ -42,6 +54,15 @@ main {
   }
   .photo {
     padding: 0 10%;
+    ul {
+      li {
+        a {
+          img{
+            height: 300px;
+          }
+        }
+      }
+    }
   }
   .shop {
     padding: 0 10%;
