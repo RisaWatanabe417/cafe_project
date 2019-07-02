@@ -65,9 +65,10 @@ body {
 .tbl-menu {
   width: 95%;
   margin: 0 auto;
+  color: #626262;
   table {
     width: 100%;
-    margin: 0 auto;
+    margin: 15px auto;
     tbody {
       tr {
         border-bottom: 1px #e6e6e6 solid;
@@ -116,7 +117,7 @@ body {
 
 .tbl-access {
   width: 45%;
-  margin: 0 auto;
+  margin: 15px auto 0 auto;
   table {
     width: 100%;
     margin: 0 auto;

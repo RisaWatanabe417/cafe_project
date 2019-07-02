@@ -51,23 +51,114 @@ main {
   }
   .menu {
     padding: 0 10%;
+    .menu-area {
+      .menu-tile-coffee {
+        display: flex;
+        margin: 50px 0;
+        .menu-image {
+          width: 30%;
+          height: 30%;
+          margin: auto 0;
+        }
+        .menu-text {
+          width: 70%;
+        }
+      }
+      .menu-tile-beer {
+        display: flex;
+        margin: 50px 0;
+        .menu-image {
+          width: 30%;
+          height: 30%;
+          margin: auto 0;
+        }
+        .menu-text {
+          width: 70%;
+        }
+      }
+      .menu-tile-drink {
+        display: flex;
+        margin: 50px 0;
+        .menu-image {
+          width: 30%;
+          height: 30%;
+          margin: auto 0;
+        }
+        .menu-text {
+          width: 70%;
+        }
+      }
+      .menu-tile-food {
+        display: flex;
+        margin: 50px 0;
+        .menu-image {
+          width: 30%;
+          height: 30%;
+          margin: auto 0;
+        }
+        .menu-text {
+          width: 70%;
+        }
+      }
+      .menu-tile-dolce {
+        display: flex;
+        margin: 50px 0;
+        .menu-image {
+          width: 30%;
+          height: 30%;
+          margin: auto 0;
+        }
+        .menu-text {
+          width: 70%;
+        }
+      }
+    }
   }
   .photo {
     padding: 0 10%;
-    ul {
-      li {
+    .photo-area {
+      display: flex;
+      .photo-tile-fooddrink {
         a {
           img{
             height: 300px;
           }
         }
+        a:hover {
+          opacity: 0.6;
+        }  
       }
-    }
+      .photo-tile-shop1 {
+        margin: 0 5%;
+        a {
+          img{
+            height: 300px;
+          }
+        }
+        a:hover {
+          opacity: 0.6;
+        }
+      }
+      .photo-tile-shop2 {
+        a {
+          img{
+            height: 300px;
+          }
+        }
+        a:hover {
+          opacity: 0.6;
+        }
+      }
+    } 
   }
   .shop {
     padding: 0 10%;
   }
   .access {
     padding: 0 10%;
+    .googlemaps {
+      margin: 0 auto;
+      display: table;
+    }
   }
 }
