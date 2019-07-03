@@ -1,9 +1,8 @@
 main {
   .concept {
-    padding: 0 10%;
+    // padding: 0 10%;
     .concept-coffee {
-      // display: flex;
-      position: relative;
+      // position: relative;
       margin-bottom: 25px;
       img{
         height: 100%;
@@ -16,18 +15,17 @@ main {
         width: 515px;
         padding: 30px 45px;
         opacity: 0.9;
-        position: absolute;
-        top: 20%;
-        right: 0%;
+        // position: absolute;
+        // top: 20%;
+        // right: 0%;
         p {
           margin-top: 10px;
         }
       }
     }
     .concept-beer {
-      // display: flex;
       height: 100%;
-      position: relative;
+      // position: relative;
       img {
         height: 100%;
         margin-left: 50%;
@@ -40,9 +38,9 @@ main {
         width: 515px;
         padding: 30px 45px;
         opacity: 0.9;
-        position: absolute;
-        top: 20%;
-        left: 0%;
+        // position: absolute;
+        // top: 20%;
+        // left: 0%;
         p {
           margin-top: 10px;
         }
@@ -53,71 +51,71 @@ main {
     padding: 0 10%;
     .menu-area {
       .menu-tile-coffee {
-        display: flex;
-        margin: 50px 0;
+        // display: flex;
+        // margin: 50px 0;
         .menu-image {
-          width: 30%;
-          height: 30%;
-          margin: auto 0;
+          // width: 30%;
+          // height: 30%;
+          // margin: auto 0;
         }
-        .menu-text {
-          width: 70%;
-        }
+        // .menu-text {
+        //   width: 70%;
+        // }
       }
       .menu-tile-beer {
-        display: flex;
-        margin: 50px 0;
+        // display: flex;
+        // margin: 50px 0;
         .menu-image {
-          width: 30%;
-          height: 30%;
-          margin: auto 0;
+          // width: 30%;
+          // height: 30%;
+          // margin: auto 0;
         }
-        .menu-text {
-          width: 70%;
-        }
+        // .menu-text {
+        //   width: 70%;
+        // }
       }
       .menu-tile-drink {
-        display: flex;
-        margin: 50px 0;
+        // display: flex;
+        // margin: 50px 0;
         .menu-image {
-          width: 30%;
-          height: 30%;
-          margin: auto 0;
+          // width: 30%;
+          // height: 30%;
+          // margin: auto 0;
         }
-        .menu-text {
-          width: 70%;
-        }
+        // .menu-text {
+        //   width: 70%;
+        // }
       }
       .menu-tile-food {
-        display: flex;
-        margin: 50px 0;
+        // display: flex;
+        // margin: 50px 0;
         .menu-image {
-          width: 30%;
-          height: 30%;
-          margin: auto 0;
+          // width: 30%;
+          // height: 30%;
+          // margin: auto 0;
         }
-        .menu-text {
-          width: 70%;
-        }
+        // .menu-text {
+        //   width: 70%;
+        // }
       }
       .menu-tile-dolce {
-        display: flex;
-        margin: 50px 0;
+        // display: flex;
+        // margin: 50px 0;
         .menu-image {
-          width: 30%;
-          height: 30%;
-          margin: auto 0;
+          // width: 30%;
+          // height: 30%;
+          // margin: auto 0;
         }
-        .menu-text {
-          width: 70%;
-        }
+        // .menu-text {
+        //   width: 70%;
+        // }
       }
     }
   }
   .photo {
     padding: 0 10%;
     .photo-area {
-      display: flex;
+      // display: flex;
       .photo-tile-fooddrink {
         a {
           img{
@@ -129,7 +127,7 @@ main {
         }  
       }
       .photo-tile-shop1 {
-        margin: 0 5%;
+        // margin: 0 5%;
         a {
           img{
             height: 300px;
@@ -159,6 +157,244 @@ main {
     .googlemaps {
       margin: 0 auto;
       display: table;
+    }
+  }
+}
+
+//PC版
+@media screen and (min-width: 980px) {
+  main {
+    .concept {
+      padding: 0 10%;
+      .concept-coffee {
+        position: relative;
+        .text-box1 {
+          position: absolute;
+          top: 20%;
+          right: 0%;
+        }
+      }
+      .concept-beer {
+        position: relative;
+        .text-box2 {
+          position: absolute;
+          top: 20%;
+          left: 0%;
+        }
+      }
+    }
+    .menu {
+      .menu-area {
+        .menu-tile-coffee {
+          display: flex;
+          margin: 50px 0;
+          .menu-image {
+            width: 30%;
+            height: 30%;
+            margin: auto 0;
+          }
+          .menu-text {
+            width: 70%;
+          }
+        }
+        .menu-tile-beer {
+          display: flex;
+          margin: 50px 0;
+          .menu-image {
+            width: 30%;
+            height: 30%;
+            margin: auto 0;
+          }
+          .menu-text {
+            width: 70%;
+          }
+        }
+        .menu-tile-drink {
+          display: flex;
+          margin: 50px 0;
+          .menu-image {
+            width: 30%;
+            height: 30%;
+            margin: auto 0;
+          }
+          .menu-text {
+            width: 70%;
+          }
+        }
+        .menu-tile-food {
+          display: flex;
+          margin: 50px 0;
+          .menu-image {
+            width: 30%;
+            height: 30%;
+            margin: auto 0;
+          }
+          .menu-text {
+            width: 70%;
+          }
+        }
+        .menu-tile-dolce {
+          display: flex;
+          margin: 50px 0;
+          .menu-image {
+            width: 30%;
+            height: 30%;
+            margin: auto 0;
+          }
+          .menu-text {
+            width: 70%;
+          }
+        }
+      }
+    }
+    .photo {
+      .photo-area {
+        display: flex;
+        .photo-tile-fooddrink {
+          a {
+            img {}
+          }
+        }
+        .photo-tile-shop1 {
+          margin: 0 5%;
+          a {
+            img {}
+          }
+        }
+        .photo-tile-shop2 {
+          a {
+            img {}
+          }
+        }
+      }
+    }
+    .shop {
+      .tbl-shop {
+        width: 45%;
+      }
+    }
+    .access {
+      .tbl-access {
+        width: 45%;
+      }
+    }
+  }
+}
+
+//SP版
+@media screen and (max-width: 980px) {
+  main {
+    .concept {
+      .concept-coffee {
+        img {
+          margin: 0 auto;
+          display: block;
+        }
+        .text-box1 {
+          margin: 10px auto;
+        }
+      }
+      .concept-beer {
+        img {
+          margin: 0 auto;
+          display: block;
+        }
+        .text-box2 {
+          margin: 10px auto;
+        }
+      }
+    }
+    .menu {
+      .menu-area {
+        .menu-tile-coffee {
+          .menu-image {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+          }
+          .menu-text {
+            padding-bottom: 15px;
+          }
+        }
+        .menu-tile-beer {
+          .menu-image {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+          }
+          .menu-text {
+            padding-bottom: 15px;
+          }
+        }
+        .menu-tile-drink {
+          .menu-image {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+          }
+          .menu-text {
+            padding-bottom: 15px;
+          }
+        }
+        .menu-tile-food {
+          .menu-image {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+          }
+          .menu-text {
+            padding-bottom: 15px;
+          }
+        }
+        .menu-tile-dolce {
+          .menu-image {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+          }
+          .menu-text {
+            padding-bottom: 15px;
+          }
+        }
+      }
+    }
+    .photo {
+      .photo-area {
+        .photo-tile-fooddrink {
+          margin: 0 auto;
+          display: table;
+          // a {
+          //   img {}
+          // }
+        }
+        .photo-tile-shop1 {
+          margin: 0 auto;
+          padding: 20px 0;
+          display: table;
+          // a {
+          //   img {}
+          // }
+        }
+        .photo-tile-shop2 {
+          margin: 0 auto;
+          display: table;
+          // a {
+          //   img {}
+          // }
+        }
+      }
+    }
+    .shop {
+      .tbl-shop {
+        width: 91%;
+      }
+    }
+    .access {
+      margin: auto;
+      display: inline;
+      .tbl-access {
+        width: 85%;
+      }
     }
   }
 }

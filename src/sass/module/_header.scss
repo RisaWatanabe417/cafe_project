@@ -18,7 +18,7 @@ header {
     opacity: 0.9;
     .header-navi {
       height: 50px;
-      width: 80%;
+      // width: 80%;
       line-height: 50px;
       // background: red;
       ul {
@@ -27,7 +27,7 @@ header {
         margin: 0 5%;
         li {
           display: inline-block;
-          font-size: 18px;
+          font-size: 16px;
         }
       }
     }
@@ -41,5 +41,22 @@ header {
         line-height: 50px;
       }
     }
+  }
+}
+
+//PC版
+@media screen and (min-width: 980px) {
+  * .header-navi {
+    width: 80%;
+  }
+}
+
+//SP版
+@media screen and (max-width: 980px) {
+  * .header-phone {
+    display: none;
+  }
+  * .header-navi {
+    width: 100%;
   }
 }
