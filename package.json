@@ -7,7 +7,7 @@
     "serve": "webpack-dev-server",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "deploy": "yarn build && gh-pages -d dist -b master"
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^2.0.1"
