@@ -1,0 +1,389 @@
+@charset "UTF-8";
+body {
+  background: #f8f8f8;
+  font-family: '游ゴシック',YuGothic,'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,sans-serif; }
+
+* a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit; }
+
+* li {
+  display: inline-block;
+  margin-right: 14px; }
+
+* h1 {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px; }
+
+* h1::after {
+  content: '';
+  display: block;
+  background: orange;
+  height: 3px;
+  width: 40px;
+  margin: 10px auto 0; }
+
+* h2 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center; }
+
+* h3 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 15px; }
+
+* p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 3px; }
+
+* .btn {
+  display: block;
+  color: orange;
+  width: 180px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid orange;
+  text-align: center;
+  background: #ffffff;
+  margin: 30px auto 0 auto; }
+
+* .btn:hover {
+  color: #FFFFFF;
+  background: orange; }
+
+.tbl-menu {
+  width: 95%;
+  margin: 0 auto;
+  color: #626262; }
+  .tbl-menu table {
+    width: 100%;
+    margin: 15px auto; }
+    .tbl-menu table tbody tr {
+      border-bottom: 1px #e6e6e6 solid; }
+      .tbl-menu table tbody tr th {
+        width: 25%;
+        text-align: left;
+        padding: 10px;
+        font-weight: normal;
+        font-size: 14px; }
+      .tbl-menu table tbody tr td {
+        width: 62%;
+        text-align: left;
+        padding: 10px;
+        line-height: 1.5;
+        font-size: 14px; }
+
+.btn-photo {
+  margin: 2em 0;
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px #999;
+  border-bottom: solid 2px #999; }
+
+.btn-photo:before, .btn-photo:after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: #999; }
+
+.btn-photo:before {
+  left: 10px; }
+
+.btn-photo:after {
+  right: 10px; }
+
+.btn-photo p {
+  margin: 0;
+  padding: 0; }
+
+.tbl-access {
+  margin: 15px auto 0 auto; }
+  .tbl-access table {
+    width: 100%;
+    margin: 0 auto; }
+    .tbl-access table tbody tr {
+      border-bottom: 1px #e6e6e6 solid; }
+      .tbl-access table tbody tr th {
+        width: 40%;
+        text-align: left;
+        padding: 10px;
+        font-weight: normal; }
+      .tbl-access table tbody tr td {
+        width: 60%;
+        text-align: left;
+        padding: 10px;
+        line-height: 1.5; }
+
+.tbl-shop {
+  margin: 0 auto; }
+  .tbl-shop table {
+    width: 100%;
+    margin: 0 auto; }
+    .tbl-shop table tbody tr {
+      border-bottom: 1px #e6e6e6 solid; }
+      .tbl-shop table tbody tr th {
+        width: 40%;
+        text-align: left;
+        padding: 10px;
+        font-weight: normal; }
+      .tbl-shop table tbody tr td {
+        width: 60%;
+        text-align: left;
+        padding: 10px;
+        line-height: 1.5; }
+
+header .hero-area {
+  background-image: url(../img/hero_image.png);
+  height: 590px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+header .header-navi-area {
+  background: #FFFFFF;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  opacity: 0.9; }
+  header .header-navi-area .header-navi {
+    height: 50px;
+    line-height: 50px; }
+    header .header-navi-area .header-navi ul {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 5%; }
+      header .header-navi-area .header-navi ul li {
+        display: inline-block;
+        font-size: 16px; }
+  header .header-navi-area .header-phone {
+    width: 20%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px; }
+    header .header-navi-area .header-phone p {
+      line-height: 50px; }
+
+@media screen and (min-width: 980px) {
+  * .header-navi {
+    width: 80%; } }
+
+@media screen and (max-width: 980px) {
+  * .header-phone {
+    display: none; }
+  * .header-navi {
+    width: 100%; } }
+
+main .concept .concept-coffee {
+  margin-bottom: 25px; }
+  main .concept .concept-coffee img {
+    height: 100%; }
+  main .concept .concept-coffee .text-box1 {
+    background: #e6e6e6;
+    border: 10px solid #e6e6e6;
+    box-shadow: 0px 0px 0px 1px #FFFFFF inset;
+    height: 215px;
+    width: 515px;
+    padding: 30px 45px;
+    opacity: 0.9; }
+    main .concept .concept-coffee .text-box1 p {
+      margin-top: 10px; }
+
+main .concept .concept-beer {
+  height: 100%; }
+  main .concept .concept-beer img {
+    height: 100%;
+    margin-left: 50%; }
+  main .concept .concept-beer .text-box2 {
+    background: #e6e6e6;
+    border: 10px solid #e6e6e6;
+    box-shadow: 0px 0px 0px 1px #FFFFFF inset;
+    height: 225px;
+    width: 515px;
+    padding: 30px 45px;
+    opacity: 0.9; }
+    main .concept .concept-beer .text-box2 p {
+      margin-top: 10px; }
+
+main .menu {
+  padding: 0 10%; }
+
+main .photo {
+  padding: 0 10%; }
+  main .photo .photo-area .photo-tile-fooddrink a img {
+    height: 300px; }
+  main .photo .photo-area .photo-tile-fooddrink a:hover {
+    opacity: 0.6; }
+  main .photo .photo-area .photo-tile-shop1 a img {
+    height: 300px; }
+  main .photo .photo-area .photo-tile-shop1 a:hover {
+    opacity: 0.6; }
+  main .photo .photo-area .photo-tile-shop2 a img {
+    height: 300px; }
+  main .photo .photo-area .photo-tile-shop2 a:hover {
+    opacity: 0.6; }
+
+main .shop {
+  padding: 0 10%; }
+
+main .access {
+  padding: 0 10%; }
+  main .access .googlemaps {
+    margin: 0 auto;
+    display: table; }
+
+@media screen and (min-width: 980px) {
+  main .concept {
+    padding: 0 10%; }
+    main .concept .concept-coffee {
+      position: relative; }
+      main .concept .concept-coffee .text-box1 {
+        position: absolute;
+        top: 20%;
+        right: 0%; }
+    main .concept .concept-beer {
+      position: relative; }
+      main .concept .concept-beer .text-box2 {
+        position: absolute;
+        top: 20%;
+        left: 0%; }
+  main .menu .menu-area .menu-tile-coffee {
+    display: flex;
+    margin: 50px 0; }
+    main .menu .menu-area .menu-tile-coffee .menu-image {
+      width: 30%;
+      height: 30%;
+      margin: auto 0; }
+    main .menu .menu-area .menu-tile-coffee .menu-text {
+      width: 70%; }
+  main .menu .menu-area .menu-tile-beer {
+    display: flex;
+    margin: 50px 0; }
+    main .menu .menu-area .menu-tile-beer .menu-image {
+      width: 30%;
+      height: 30%;
+      margin: auto 0; }
+    main .menu .menu-area .menu-tile-beer .menu-text {
+      width: 70%; }
+  main .menu .menu-area .menu-tile-drink {
+    display: flex;
+    margin: 50px 0; }
+    main .menu .menu-area .menu-tile-drink .menu-image {
+      width: 30%;
+      height: 30%;
+      margin: auto 0; }
+    main .menu .menu-area .menu-tile-drink .menu-text {
+      width: 70%; }
+  main .menu .menu-area .menu-tile-food {
+    display: flex;
+    margin: 50px 0; }
+    main .menu .menu-area .menu-tile-food .menu-image {
+      width: 30%;
+      height: 30%;
+      margin: auto 0; }
+    main .menu .menu-area .menu-tile-food .menu-text {
+      width: 70%; }
+  main .menu .menu-area .menu-tile-dolce {
+    display: flex;
+    margin: 50px 0; }
+    main .menu .menu-area .menu-tile-dolce .menu-image {
+      width: 30%;
+      height: 30%;
+      margin: auto 0; }
+    main .menu .menu-area .menu-tile-dolce .menu-text {
+      width: 70%; }
+  main .photo .photo-area {
+    display: flex; }
+    main .photo .photo-area .photo-tile-shop1 {
+      margin: 0 5%; }
+  main .shop .tbl-shop {
+    width: 45%; }
+  main .access .tbl-access {
+    width: 45%; } }
+
+@media screen and (max-width: 980px) {
+  main .concept .concept-coffee img {
+    margin: 0 auto;
+    display: block; }
+  main .concept .concept-coffee .text-box1 {
+    margin: 10px auto; }
+  main .concept .concept-beer img {
+    margin: 0 auto;
+    display: block; }
+  main .concept .concept-beer .text-box2 {
+    margin: 10px auto; }
+  main .menu .menu-area .menu-tile-coffee .menu-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+  main .menu .menu-area .menu-tile-coffee .menu-text {
+    padding-bottom: 15px; }
+  main .menu .menu-area .menu-tile-beer .menu-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+  main .menu .menu-area .menu-tile-beer .menu-text {
+    padding-bottom: 15px; }
+  main .menu .menu-area .menu-tile-drink .menu-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+  main .menu .menu-area .menu-tile-drink .menu-text {
+    padding-bottom: 15px; }
+  main .menu .menu-area .menu-tile-food .menu-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+  main .menu .menu-area .menu-tile-food .menu-text {
+    padding-bottom: 15px; }
+  main .menu .menu-area .menu-tile-dolce .menu-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+  main .menu .menu-area .menu-tile-dolce .menu-text {
+    padding-bottom: 15px; }
+  main .photo .photo-area .photo-tile-fooddrink {
+    margin: 0 auto;
+    display: table; }
+  main .photo .photo-area .photo-tile-shop1 {
+    margin: 0 auto;
+    padding: 20px 0;
+    display: table; }
+  main .photo .photo-area .photo-tile-shop2 {
+    margin: 0 auto;
+    display: table; }
+  main .shop .tbl-shop {
+    width: 91%; }
+  main .access {
+    margin: auto;
+    display: inline; }
+    main .access .tbl-access {
+      width: 85%; } }
+
+footer .sns-area {
+  text-align: center;
+  padding: 90px 0 60px 0; }
+  footer .sns-area ul li img {
+    height: 35px;
+    margin-top: 10px; }
+
+footer .copy-area {
+  padding-bottom: 10px; }
+  footer .copy-area p {
+    font-size: 10px;
+    color: #666666; }
+
