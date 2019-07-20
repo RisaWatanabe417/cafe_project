@@ -43,6 +43,7 @@ header {
 }
 
 * .header-navi-area.fixed {
+  z-index: 20;
   position: fixed;
   top: 0;
 }
