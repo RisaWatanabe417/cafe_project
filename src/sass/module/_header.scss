@@ -18,10 +18,8 @@ header {
     opacity: 0.9;
     .header-navi {
       height: 50px;
-      // width: 80%;
       line-height: 50px;
-      // background: red;
-      ul {
+      ul {ed;
         display: flex;
         justify-content: space-between;
         margin: 0 5%;
@@ -36,7 +34,6 @@ header {
       font-size: 18px;
       text-align: center;
       line-height: 50px;
-      // background: blue;
       p {
         line-height: 50px;
       }
