@@ -169,6 +169,7 @@ main {
       .concept-coffee {
         position: relative;
         .text-box1 {
+          z-index: 10;
           position: absolute;
           top: 20%;
           right: 0%;
@@ -177,6 +178,7 @@ main {
       .concept-beer {
         position: relative;
         .text-box2 {
+          z-index: 10;
           position: absolute;
           top: 20%;
           left: 0%;
