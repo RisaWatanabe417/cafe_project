@@ -153,11 +153,7 @@ header .hero-area {
 header .header-navi-area {
   background: #FFFFFF;
   display: flex;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1000;
+  position: absolute;
   width: 100%;
   opacity: 0.9; }
   header .header-navi-area .header-navi {
@@ -177,6 +173,11 @@ header .header-navi-area {
     line-height: 50px; }
     header .header-navi-area .header-phone p {
       line-height: 50px; }
+
+* .header-navi-area.fixed {
+  z-index: 20;
+  position: fixed;
+  top: 0; }
 
 @media screen and (min-width: 980px) {
   * .header-navi {
@@ -252,12 +253,14 @@ main .access {
     main .concept .concept-coffee {
       position: relative; }
       main .concept .concept-coffee .text-box1 {
+        z-index: 10;
         position: absolute;
         top: 20%;
         right: 0%; }
     main .concept .concept-beer {
       position: relative; }
       main .concept .concept-beer .text-box2 {
+        z-index: 10;
         position: absolute;
         top: 20%;
         left: 0%; }
